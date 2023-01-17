@@ -37,7 +37,7 @@ export default function Post() {
       .create(doc)
       .then(() => {
         setComment("");
-        window.location.reload(false);
+        navigate("/");
       })
       .catch((error) => console.error(error));
   };
