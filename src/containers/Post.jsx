@@ -64,7 +64,7 @@ export default function Post() {
               alt={"Post by " + post?.user}
             />
           </div>
-          <div className="w-full lg:w-1/2 lg:h-[90vh] lg:overflow-hidden lg:overflow-y-scroll lg:no-scrollbar">
+          <div className="w-full no-scrollbar lg:w-1/2 lg:h-[90vh] lg:overflow-hidden lg:overflow-y-scroll">
             <div className="w-full h-[10vh] flex justify-between items-center">
               <Link
                 className="flex items-center gap-2"
