@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Courgette";
+  src: url("/fonts/Courgette-Regular.ttf");
+}
+
+@layer base {
+  body {
+    @apply font-poppins text-sm;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
